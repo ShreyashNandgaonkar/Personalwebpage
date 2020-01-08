@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    
+    <div class="background">
+
+        <div class="nav">
+            <a class="a active" href="#">Home</a>
+            <a class="b" href="#">About me</a>
+            <a class="c" href="#">Education</a>
+            <a class="d" href="#">Achievements</a>
+            
+        </div>
+
+
+    <div class="content">
+
+        <div class="home">
+            <h1>Shreyash Nandgaonkar</h1>
+            <h3>Artificial Intelligence,Machine Learning & Front-end.</h3>
+        </div>
+
+        <div class="aboutme">
+            <p>
+                I am highly-organized, punctual, honest and a social-friendly guy.<br>
+                A quick learner, self-motivated and a passionate individual who believes in execution of idea more than idea itself. <br />
+                Currently pursuing M.Tech with specialization in Machine Learning at K.J.Somaiya college of engineering,Mumbai, which is an autonomous tier-1 university in Mumbai.<br />
+                I am a mix of AI/ML and front-end engineering as i believe web development is crucial for business along with data and modelling.<br />
+                Proficient in Python, html, css, javascript and bootstrap.<br />
+            <p><b>Experience:</b></p>
+            <ul>
+                <li>CDAC :: Jun_2019 to Dec_2019__Deep learning intern</li>
+                <li>Sahu Technologies :: Jan_2019 to Feb_2019__Web Developer Intern</li>
+                <li>Tata Communications and Transformation Services :: Jul_2016 to Sept_2017__Network O&M eng.</li>
+                <li>Unique academy :: Jun_2014 to Jul_2016__Maths professor</li>
+                <p><b>Languages:</b></p>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <p><b>Tools:</b></p>
+                <li>Visual Studio</li>
+                <li>Excel</li>
+                <li>Keras</li>
+                <li>SciPy,NumPy,TF1.0</li>
+                <li>SAS basics</li>
+            </ul>
+            <p><b>Github: </b><a href="https://github.com/ShreyashNandgaonkar">Click here</a></p>
+            <p><b>Linkedin: </b><a href="https://www.linkedin.com/in/shreyash-nandgaonkar-071193/">Click here</a></p>
+            <p><b>Gmail: </b>shreyash.nandgaonkar7@gmail.com</p>
+            <p><b>Cell Phone: </b>9820165893</p>
+            <p><i>I am open to opportunities in Front-end, ML, DL and Data science</i></p>
+            <div class="image" alt="Profile pic"></div>
+
+            </p>
+
+
+        </div>
+
+        <div class="education">
+            <table style="width:100%" align="center">
+                <tr>
+                    <th>***</th>
+                    <th>SSC</th>
+                    <th>HSC</th>
+                    <th>B.E-Extc</th>
+                    <th>M.Tech-ML</th>
+                </tr>
+                <tr>
+                    <th>Year</th>
+                    <td>2009</td>
+                    <td>2011</td>
+                    <td>2011-2015(Dec)</td>
+                    <td>2018-2020</td>
+                </tr>
+                <tr>
+                    <th>Marks</th>
+                    <td>87.84%</td>
+                    <td>81.00%</td>
+                    <td>6.45</td>
+                    <td>8.25</td>
+                </tr>
+            </table>
+            <p>Projects:<br /></p>
+            <ul>
+                <li>Light based transmission of data</li>
+                <li>House automation</li>
+                <li>Implementation of Triangular Microstrip antenna</li>
+                <li>Prediction of user's purchase based intention using SVM, Naive Bayes and KNN.</li>
+                <li>Hotel booking system using HTML, CSS, Javascript and bootstrap.</li>
+                <li>Bank Ticketing system using HTML, CSS, Javascript and bootstrap.</li>
+                <li>Personal webpage</li>
+                <li>Various use cases using Machine learning algorithms.</li>
+            </ul>
+        </div>
+        <div class="achievements">
+            <ul>
+                <li><i><b>1st place Long Jump.</b></i></li>
+                <li><i><b>1st place inter-house Football champion.</b></i></li>
+                <li><i><b>State rank 322 in 'First Biotech Nationwide Olympiad'.</b></i></li>
+                <li><i><b>Trained under Indian 'C' division Football coach.</b></i></li>
+                <li><i><b>Played for MFC and Patiala AFC football club.</b></i></li>
+            </ul>
+            <p><b>Publication:</b><b> "Multi-class Text Classification using hyperparameter tuned models-"</b><i>"5<sup>th</sup>International Conference of Electronics and Communications Engineering (ICECE),2019"</i></p>
+        </div>
+        
+    </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $('a').click(function () {
+                var selected = $(this);
+                $('a').removeClass('active');
+                $(selected).addClass('active');
+            });
+
+            var $a = $('.a'),
+                $b = $('.b'),
+                $c = $('.c'),
+                $d = $('.d'),
+                $home = $('.home'),
+                $aboutme = $('.aboutme'),
+                $education = $('.education'),
+                $achievements = $('.achievements');
+                
+               
+            $a.click(function () {
+                $home.fadeIn();
+                $aboutme.fadeOut();
+                $education.fadeOut();
+                $achievements.fadeOut();
+                
+            });
+            $b.click(function () {
+                $home.fadeOut();
+                $aboutme.fadeIn();
+                $education.fadeOut();
+                $achievements.fadeOut();
+                
+            });
+            $c.click(function () {
+                $home.fadeOut();
+                $aboutme.fadeOut();
+                $education.fadeIn();
+                $achievements.fadeOut();
+                
+            });
+            $d.click(function () {
+                $home.fadeOut();
+                $aboutme.fadeOut();
+                $education.fadeOut();
+                $achievements.fadeIn();
+                
+            });
+           
+
+        });
+    </script>
+</body>
+</html>

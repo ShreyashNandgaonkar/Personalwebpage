@@ -1,0 +1,190 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    font-size:14px;
+    font-weight:normal;
+}
+
+.background {
+    background-image: url(../images/tuq.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+    width:100%;
+    height:100%;
+}
+.nav{
+    width: 350px;
+    height:auto;
+    position:absolute;
+    top:20%;
+    left:0%;
+
+}
+    .nav a {
+        text-decoration: none;
+        font-size: 28px;
+        font-family: Verdana;
+        font-weight: bold;
+        height: 90px;
+        margin: 5px 0;
+        float: left;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        line-height: 90px;
+        text-align: center;
+        transition: 350ms;
+        border-radius: 24px;
+        
+    }
+a.active, .nav a:hover {
+            background-color: white;
+            color: black;
+            width:100%;
+}
+.a {
+    width:80%;
+}
+.b {
+    width: 80%;
+}
+.c {
+    width: 80%;
+}
+.d {
+    width: 80%;
+}
+.e {
+    width: 80%;
+}
+.content {
+    width: 930px;
+    height: auto;
+    min-height: 500px;
+    right: 0px;
+    top: 10%;
+    position: absolute;
+    
+}
+.home {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    color: black;
+    font-family: Verdana;
+    
+}
+.home h1 {
+        font-size: 95px;
+        padding-right: 85px;
+        border-bottom: 1px solid black;
+        text-transform: uppercase;
+}
+.home h3 {
+        font-size: 28px;
+        padding: 50px 0;
+        opacity: 0.6;
+        color: black;
+}
+.aboutme {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: black;
+    font-family: 'Cambria';
+    padding: 0 80px;
+    display: none;
+    width: 100%;
+    
+}
+    .aboutme p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-right: 85px;
+        margin-top: 22px;
+        font-family: 'Cambria';
+        
+    }
+    .aboutme li {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: 'Cambria';
+    }
+div.image {
+    content: url(../images/shreyash.jpg);
+    width: 50%;
+    height: 30%;
+    position: relative;
+    left: 500px;
+    top: -590px;
+    border: 3px solid #73AD21;
+}
+
+.education {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: black;
+    font-family: Cambria;
+    padding: 0 80px;
+    width: 100%;
+    display: none;
+}
+.education table, th, td, tr {
+        border: 5px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        border-spacing: 5px;
+        text-align: center;
+        
+        margin-top:0.1%;
+        height:50px;
+        font-size:20px;
+      
+}
+.education p{
+        font-family: Cambria;
+        margin-top: 80px;
+        margin-right: 50px;
+        font-size: 30px;
+}
+.education li {
+        font-family: Cambria;
+        
+        font-size: 20px;
+}
+.achievements {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: black;
+    font-family: Cambria;
+    padding: 0 80px;
+    display: none;
+}
+
+.achievements li {
+        font-size: 20px;
+        font-stretch: expanded;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 25px;
+        margin-right: 80%;
+        font-family: Cambria;
+        padding-right: 200px;
+        padding-top: 10px;
+}
+.achievements p {
+        font-family:Cambria;
+        margin-top: 80px;
+        margin-right:50px;
+        font-size:20px;
+        
+}
